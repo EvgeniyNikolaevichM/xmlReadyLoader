@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?iec61970-552 version="2.0"?>
+<?floatExporter 1?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:md="http://iec.ch/TC57/61970-552/ModelDescription/1#" xmlns:cim="http://iec.ch/TC57/2014/CIM-schema-cim16#" xmlns:cim17="http://iec.ch/TC57/2014/CIM-schema-cim17#" xmlns:me="http://monitel.com/2014/schema-cim16#" xmlns:rf="http://gost.ru/2019/schema-cim01#" xmlns:rh="http://rushydro.ru/2015/schema-cim16#" xmlns:so="http://so-ups.ru/2015/schema-cim16#">
+  <md:FullModel rdf:about="#_5f84f317-9253-4c06-ae80-4aa7d51d6360">
+    <md:Model.created>2024-06-03T07:12:37.2482919Z</md:Model.created>
+    <md:Model.version>ver:11.7.1.244;ext:1;</md:Model.version>
+    <me:Model.name>CIM16</me:Model.name>
+  </md:FullModel>
+  <cim:Line rdf:about="#_81e0df4f-43ba-4ec9-91b2-f2873f866255">
+    <cim:PowerSystemResource.Assets rdf:resource="#_4bfe1e89-c7df-42ad-b9ba-841f37d64d95" />
+    <cim:IdentifiedObject.mRID>81e0df4f-43ba-4ec9-91b2-f2873f866255</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.name>Связь ТЭЦ Коксогаз - ПС 110 кВ Коксогаз №2</cim:IdentifiedObject.name>
+    <rf:IdentifiedObject.OrganisationRoles rdf:resource="#_0ff5818b-a018-4253-9c5c-3bfdb61d1cc8" />
+    <rf:IdentifiedObject.OrganisationRoles rdf:resource="#_4f606ca7-76af-4235-8ffd-a736198e0830" />
+    <me:IdentifiedObject.ChildObjects rdf:resource="#_368e8d20-5a19-4573-abfc-b5243c2d7476" />
+    <me:IdentifiedObject.ChildObjects rdf:resource="#_4bfe1e89-c7df-42ad-b9ba-841f37d64d95" />
+    <me:IdentifiedObject.ParentObject rdf:resource="#_9a143fd7-1bc0-4e50-b4d1-604f88906397" />
+    <cim:EquipmentContainer.Equipments rdf:resource="#_368e8d20-5a19-4573-abfc-b5243c2d7476" />
+    <cim:Line.Region rdf:resource="#_cff039d7-346f-4db6-9855-84f9af382ab5" />
+  </cim:Line>
+  <cim:ACLineSegment rdf:about="#_368e8d20-5a19-4573-abfc-b5243c2d7476">
+    <cim:Equipment.normallyInService>true</cim:Equipment.normallyInService>
+    <cim:Equipment.EquipmentContainer rdf:resource="#_81e0df4f-43ba-4ec9-91b2-f2873f866255" />
+    <cim:PowerSystemResource.PSRType rdf:resource="#_10000cf2-0000-0000-c000-0000006d746c" />
+    <cim:IdentifiedObject.name>ТЭЦ Коксогаз - ПС 110 кВ Коксогаз</cim:IdentifiedObject.name>
+    <me:IdentifiedObject.ChildObjects rdf:resource="#_29501a8b-ec19-4095-9eff-073e3a287cda" />
+    <me:IdentifiedObject.ChildObjects rdf:resource="#_d183ddf0-dbf1-48ec-958b-75eccd319514" />
+    <me:IdentifiedObject.ChildObjects rdf:resource="#_a8802d61-303c-4990-bb84-1968646f32b7" />
+    <me:IdentifiedObject.ParentObject rdf:resource="#_81e0df4f-43ba-4ec9-91b2-f2873f866255" />
+    <me:ConductingEquipment.ControlArea rdf:resource="#_9ea90448-ee7a-4b81-9a41-056bea07e97d" />
+    <cim:ConductingEquipment.Terminals rdf:resource="#_29501a8b-ec19-4095-9eff-073e3a287cda" />
+    <cim:ConductingEquipment.Terminals rdf:resource="#_d183ddf0-dbf1-48ec-958b-75eccd319514" />
+    <cim:ConductingEquipment.BaseVoltage rdf:resource="#_1000067f-0000-0000-c000-0000006d746c" />
+    <cim:ACLineSegment.bch>0</cim:ACLineSegment.bch>
+    <cim:ACLineSegment.gch>0</cim:ACLineSegment.gch>
+    <me:ACLineSegment.modelDetail>2</me:ACLineSegment.modelDetail>
+    <cim:ACLineSegment.r>0.001</cim:ACLineSegment.r>
+    <cim:ACLineSegment.x>0.001</cim:ACLineSegment.x>
+    <rf:ACLineSegment.ACLineSeriesSections rdf:resource="#_a8802d61-303c-4990-bb84-1968646f32b7" />
+    <me:Conductor.isJumper>false</me:Conductor.isJumper>
+  </cim:ACLineSegment>
+  <cim:Facility rdf:about="#_4bfe1e89-c7df-42ad-b9ba-841f37d64d95">
+    <cim:AssetContainer.Assets rdf:resource="#_5f265ce2-1c88-4e6c-b9cd-8c6270f68c2b" />
+    <cim:Asset.PowerSystemResources rdf:resource="#_81e0df4f-43ba-4ec9-91b2-f2873f866255" />
+    <cim:Asset.AssetDeployment rdf:resource="#_b4bb2f6a-d25c-4ec7-a76e-4b2184ebbb9a" />
+    <cim:IdentifiedObject.name>Связь ТЭЦ Коксогаз - ПС 110 кВ Коксогаз №2</cim:IdentifiedObject.name>
+    <me:IdentifiedObject.ChildObjects rdf:resource="#_b4bb2f6a-d25c-4ec7-a76e-4b2184ebbb9a" />
+    <me:IdentifiedObject.ParentObject rdf:resource="#_81e0df4f-43ba-4ec9-91b2-f2873f866255" />
+  </cim:Facility>
+  <cim:Terminal rdf:about="#_29501a8b-ec19-4095-9eff-073e3a287cda">
+    <me:IdentifiedObject.ParentObject rdf:resource="#_368e8d20-5a19-4573-abfc-b5243c2d7476" />
+    <cim:Terminal.ConductingEquipment rdf:resource="#_368e8d20-5a19-4573-abfc-b5243c2d7476" />
+    <cim:Terminal.ConnectivityNode rdf:resource="#_df1ae57c-9ab6-4dce-9224-d31f85703a2b" />
+    <rf:Terminal.ACLineSeriesSection rdf:resource="#_a8802d61-303c-4990-bb84-1968646f32b7" />
+    <cim:ACDCTerminal.sequenceNumber>1</cim:ACDCTerminal.sequenceNumber>
+    <cim:ACDCTerminal.BusNameMarker rdf:resource="#_56b18796-c769-40b5-842f-bef977a24fd4" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_d183ddf0-dbf1-48ec-958b-75eccd319514">
+    <me:IdentifiedObject.ParentObject rdf:resource="#_368e8d20-5a19-4573-abfc-b5243c2d7476" />
+    <cim:Terminal.ConductingEquipment rdf:resource="#_368e8d20-5a19-4573-abfc-b5243c2d7476" />
+    <cim:Terminal.ConnectivityNode rdf:resource="#_061f8537-0b71-43c8-bddb-41357f0a7803" />
+    <cim:ACDCTerminal.sequenceNumber>2</cim:ACDCTerminal.sequenceNumber>
+  </cim:Terminal>
+  <rf:ACLineSeriesSection rdf:about="#_a8802d61-303c-4990-bb84-1968646f32b7">
+    <cim:Equipment.normallyInService>true</cim:Equipment.normallyInService>
+    <so:Equipment.commissioningNonGuaranteedSign rdf:resource="so:CommissioningNonGuaranteedSign.notAnalized" />
+    <cim:PowerSystemResource.Assets rdf:resource="#_5f265ce2-1c88-4e6c-b9cd-8c6270f68c2b" />
+    <cim:PowerSystemResource.PSRType rdf:resource="#_1000181b-0000-0000-c000-0000006d746c" />
+    <cim:IdentifiedObject.name>Составной участок ЛЭП №1</cim:IdentifiedObject.name>
+    <me:IdentifiedObject.ChildObjects rdf:resource="#_5f265ce2-1c88-4e6c-b9cd-8c6270f68c2b" />
+    <me:IdentifiedObject.ParentObject rdf:resource="#_368e8d20-5a19-4573-abfc-b5243c2d7476" />
+    <rf:ACLineSeriesSection.sectionNumber>1</rf:ACLineSeriesSection.sectionNumber>
+    <rf:ACLineSeriesSection.Terminal rdf:resource="#_29501a8b-ec19-4095-9eff-073e3a287cda" />
+    <rf:ACLineSeriesSection.ACLineSegment rdf:resource="#_368e8d20-5a19-4573-abfc-b5243c2d7476" />
+  </rf:ACLineSeriesSection>
+  <cim:AssetDeployment rdf:about="#_b4bb2f6a-d25c-4ec7-a76e-4b2184ebbb9a">
+    <cim:IdentifiedObject.name>Номинальные параметры Связь ТЭЦ Коксогаз - ПС 110 кВ Коксогаз №2</cim:IdentifiedObject.name>
+    <me:IdentifiedObject.ParentObject rdf:resource="#_4bfe1e89-c7df-42ad-b9ba-841f37d64d95" />
+    <cim:AssetDeployment.Asset rdf:resource="#_4bfe1e89-c7df-42ad-b9ba-841f37d64d95" />
+    <cim:AssetDeployment.BaseVoltage rdf:resource="#_1000067f-0000-0000-c000-0000006d746c" />
+  </cim:AssetDeployment>
+  <cim:Asset rdf:about="#_5f265ce2-1c88-4e6c-b9cd-8c6270f68c2b">
+    <cim:Asset.AssetContainer rdf:resource="#_4bfe1e89-c7df-42ad-b9ba-841f37d64d95" />
+    <cim:Asset.PowerSystemResources rdf:resource="#_a8802d61-303c-4990-bb84-1968646f32b7" />
+    <cim:IdentifiedObject.name>Составной участок ЛЭП №1</cim:IdentifiedObject.name>
+    <me:IdentifiedObject.ParentObject rdf:resource="#_a8802d61-303c-4990-bb84-1968646f32b7" />
+  </cim:Asset>
+</rdf:RDF>
