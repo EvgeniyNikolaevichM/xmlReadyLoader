@@ -70,8 +70,7 @@ class BaseClass:
 
     def update_lines(self, old_string, new_string):
         self.lines = [
-            new_string if line == old_string else
-            line
+            line.replace(old_string, new_string) if old_string in line else line
             for line in self.lines
         ]
 

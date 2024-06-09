@@ -4,15 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a0f21b51-fa8c-48da-a578-8666c03e846e" name="Changes" comment="2. Commit">
-      <change afterPath="$PROJECT_DIR$/about.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/custommodel.py" afterDir="false" />
+    <list default="true" id="a0f21b51-fa8c-48da-a578-8666c03e846e" name="Changes" comment="3. Commit">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/about.py" beforeDir="false" afterPath="$PROJECT_DIR$/about.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/base.py" beforeDir="false" afterPath="$PROJECT_DIR$/base.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gui.py" beforeDir="false" afterPath="$PROJECT_DIR$/gui.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Наборы изменений/2г (1).xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Наборы изменений/2г (2).xml" beforeDir="false" afterPath="$PROJECT_DIR$/Наборы изменений/Пример готового файла.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Наборы изменений/FullModel_исходный_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/custommodel.py" beforeDir="false" afterPath="$PROJECT_DIR$/custommodel.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/diffmodel.py" beforeDir="false" afterPath="$PROJECT_DIR$/diffmodel.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Наборы изменений/FullModel_исходный.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Наборы изменений/fullmodel_исходный.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Наборы изменений/diff_исходный.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Наборы изменений/diffmodel_исходный.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Наборы изменений/output.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Наборы изменений/output.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -166,12 +166,21 @@
       <option name="project" value="LOCAL" />
       <updated>1717848107738</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="3. Commit">
+      <option name="closed" value="true" />
+      <created>1717962766099</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1717962766099</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="1. Commit" />
     <MESSAGE value="2. Commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="2. Commit" />
+    <MESSAGE value="3. Commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="3. Commit" />
   </component>
 </project>

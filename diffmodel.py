@@ -5,8 +5,8 @@ from base import BaseClass
 
 def ready_diff_model():
     input_file = filedialog.askopenfilename(title="Выберите входной файл")
-    old_string = '    <dm:reverseDifferences>\n'
-    new_string = '    <dm:reverseDifferences rdf:parseType="Statements" xml:base="https://cim.so-ups.ru#">\n'
+    old_string = '<dm:reverseDifferences>\n'
+    new_string = '<dm:reverseDifferences rdf:parseType="Statements" xml:base="https://cim.so-ups.ru#">\n'
     if input_file:
         output_file = filedialog.asksaveasfilename(title="Сохранить как", defaultextension=".xml",
                                                    filetypes=[("Text files", "*.xml")])

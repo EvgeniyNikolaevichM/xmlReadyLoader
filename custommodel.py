@@ -30,13 +30,22 @@ def ready_custom_model():
                     patterns.append((start_char, end_char))
 
             add_lines = messagebox.askyesno("Добавление строк",
-                                            "Хотите добавить какие-либо строки по индексу?")
+                                            "Хотите добавить строку по индексу?")
             if add_lines:
                 index = simpledialog.askinteger("Ввод", "Введите индекс для добавления строки:")
                 add_string = simpledialog.askstring("Ввод", "Введите строку для добавления:")
             else:
                 index = None
                 add_string = None
+
+            replace_lines = messagebox.askyesno("Замена строк",
+                                                "Хотите заменить какую-либо строку?")
+            if replace_lines:
+                old_string = simpledialog.askstring("Ввод", "Введите строку для замены:")
+                new_string = simpledialog.askstring("Ввод", "Введите новую строку для замены:")
+            else:
+                old_string = None
+                new_string = None
 
             if patterns:
                 obj = BaseClass()
@@ -46,6 +55,8 @@ def ready_custom_model():
                 obj.remove_me_class_name()
                 if index is not None and add_string is not None:
                     obj.add_line_by_index(index, add_string)
+                if old_string is not None and new_string is not None:
+                    obj.update_lines(old_string, new_string)
                 obj.save_file(output_file)
                 messagebox.showinfo("Готово", "Файл обновлен и сохранен.")
             else:
