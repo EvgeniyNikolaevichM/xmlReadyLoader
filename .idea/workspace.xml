@@ -4,13 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a0f21b51-fa8c-48da-a578-8666c03e846e" name="Changes" comment="1. Commit">
-      <change afterPath="$PROJECT_DIR$/base.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gui.py" afterDir="false" />
+    <list default="true" id="a0f21b51-fa8c-48da-a578-8666c03e846e" name="Changes" comment="2. Commit">
+      <change afterPath="$PROJECT_DIR$/about.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/custommodel.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fullmodel.py" beforeDir="false" afterPath="$PROJECT_DIR$/fullmodel.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/diffmodel.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Наборы изменений/2г (1).xml" beforeDir="false" afterPath="$PROJECT_DIR$/Наборы изменений/2г (1).xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/base.py" beforeDir="false" afterPath="$PROJECT_DIR$/base.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gui.py" beforeDir="false" afterPath="$PROJECT_DIR$/gui.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Наборы изменений/2г (1).xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Наборы изменений/2г (2).xml" beforeDir="false" afterPath="$PROJECT_DIR$/Наборы изменений/Пример готового файла.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Наборы изменений/FullModel_исходный_2.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Наборы изменений/output.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Наборы изменений/output.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -156,11 +158,20 @@
       <option name="project" value="LOCAL" />
       <updated>1717785933837</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="2. Commit">
+      <option name="closed" value="true" />
+      <created>1717848107737</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1717848107738</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="1. Commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="1. Commit" />
+    <MESSAGE value="2. Commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="2. Commit" />
   </component>
 </project>

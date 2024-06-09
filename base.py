@@ -53,27 +53,20 @@ class BaseClass:
         self.lines = updated_lines
 
     def remove_by_patterns(self, patterns):
-        patterns = [
-            ('<?iec61970-552', '?>'),
-            ('<?floatExporter', '?>'),
-            ('<rdf:RDF xmlns:', '>'),
-            ('<dm:DifferenceModel', '>'),
-            ('<md:Model.created>', '>'),
-            ('<md:Model.description>', '>'),
-            ('<md:Model.version>', '>'),
-            ('<me:Model.name>', '>'),
-            ('<dm:forwardDifferences', '>'),
-            ('<me:', '>')
-        ]
+        filtered_lines = []
         for line in self.lines:
-            line = line.strip()
+            stripped_line = line.strip()
             remove_line = False
             for start_char, end_char in patterns:
-                if line.startswith(start_char) and line.endswith(end_char):
+                if stripped_line.startswith(start_char) and stripped_line.endswith(end_char):
                     remove_line = True
                     break
             if not remove_line:
-                self.lines.append(line)
+                filtered_lines.append(line)
+        self.lines = filtered_lines
+
+    def remove_zwnbsp(self):
+        self.lines = [line.replace('\ufeff', '') for line in self.lines]
 
     def update_lines(self, old_string, new_string):
         self.lines = [
@@ -82,44 +75,5 @@ class BaseClass:
             for line in self.lines
         ]
 
-    # def add_and_save_lines(output_file, add_string, index, add_string2, index2, add_string3, index3):
-    #     global updated_lines
-    #     updated_lines.insert(index, add_string + '\n')
-    #     updated_lines.insert(index2, add_string2 + '\n')
-    #     updated_lines.insert(index3, add_string3 + '\n')
-    #     with open(output_file, 'w', encoding='utf-8') as file:
-    #         file.writelines(updated_lines)
-    #
-    #
-    # def select_file(default_patterns, old_string1, new_string1, old_string2, new_string2, add_string, index, add_string2,
-    #                 index2, add_string3, index3):
-    #     input_file = filedialog.askopenfilename(title="Выберите входной файл")
-    #     if input_file:
-    #         output_file = filedialog.asksaveasfilename(title="Сохранить как", defaultextension=".xml",
-    #                                                    filetypes=[("Text files", "*.xml")])
-    #         if output_file:
-    #             use_defaults = messagebox.askyesno("Использовать значения по умолчанию?",
-    #                                                "Хотите использовать кортежи символов для удаления по умолчанию?")
-    #             if use_defaults:
-    #                 patterns = default_patterns
-    #             else:
-    #                 patterns = []
-    #                 while True:
-    #                     start_char = simpledialog.askstring("Ввод",
-    #                                                         "Введите начальный символ (или оставьте пустым для завершения):")
-    #                     if not start_char:
-    #                         break
-    #                     end_char = simpledialog.askstring("Ввод",
-    #                                                       "Введите конечный символ (или оставьте пустым для завершения):")
-    #                     if not end_char:
-    #                         break
-    #                     patterns.append((start_char, end_char))
-    #             if patterns:
-    #                 remove_lines(input_file, patterns)
-    #                 remove_me_class_name()
-    #                 update_lines(old_string1, new_string1, old_string2, new_string2)
-    #                 add_and_save_lines(output_file, add_string, index, add_string2, index2, add_string3, index3)
-    #                 messagebox.showinfo("Готово", "Строки успешно удалены/обновлены и файл сохранен.")
-    #             else:
-    #                 messagebox.showwarning("Предупреждение", "Не были заданы пары символов для удаления строк.")
-
+    def add_line_by_index(self, index, add_string):
+        self.lines.insert(index, add_string + '\n')
