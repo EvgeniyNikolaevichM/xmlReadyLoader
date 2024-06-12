@@ -16,6 +16,7 @@ def convert_to_diff():
             obj.remove_lines_end(-1)
             obj.add_header_lines()
             obj.add_footer_lines_for_full()
+            obj.add_line_by_index(3,'    <dm:forwardDifferences rdf:parseType="Statements" xml:base="https://cim.so-ups.ru#">')
             obj.save_file(output_file)
             messagebox.showinfo("Готово", "Файл обновлен и сохранен.")
         else:

@@ -24,9 +24,8 @@ class BaseClass:
             'xmlns:so="http://so-ups.ru/2015/schema-cim16#" xmlns:cim="http://iec.ch/TC57/CIM100#" '
             'xmlns:dm="http://iec.ch/TC57/61970-552/DifferenceModel/1#" xmlns:rf="http://gost.ru/2019/schema-cim01#" '
             'xmlns:ups="https://cim.so-ups.ru#" xml:base="">\n',
-            '  <dm:DifferenceModel>\n',
-            '    <dm:forwardDifferences rdf:parseType="Statements" xml:base="https://cim.so-ups.ru#">\n'
-        ]
+            '  <dm:DifferenceModel>\n'
+            ]
         self.lines = lines_to_add + self.lines
 
     def add_footer_lines_for_full(self):

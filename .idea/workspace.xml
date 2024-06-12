@@ -4,15 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a0f21b51-fa8c-48da-a578-8666c03e846e" name="Changes" comment="3. Commit">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="a0f21b51-fa8c-48da-a578-8666c03e846e" name="Changes" comment="4. Commit v 1.0 app">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/about.py" beforeDir="false" afterPath="$PROJECT_DIR$/about.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/base.py" beforeDir="false" afterPath="$PROJECT_DIR$/base.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/custommodel.py" beforeDir="false" afterPath="$PROJECT_DIR$/custommodel.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/diffmodel.py" beforeDir="false" afterPath="$PROJECT_DIR$/diffmodel.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Наборы изменений/FullModel_исходный.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Наборы изменений/fullmodel_исходный.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Наборы изменений/diff_исходный.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Наборы изменений/diffmodel_исходный.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fullmodel.py" beforeDir="false" afterPath="$PROJECT_DIR$/fullmodel.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/xml ready loader.exe" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Наборы изменений/output.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Наборы изменений/output.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -42,22 +40,31 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Python.diffmodel.executor&quot;: &quot;Run&quot;,
-    &quot;Python.gui.executor&quot;: &quot;Run&quot;,
-    &quot;Python.interface.executor&quot;: &quot;Run&quot;,
-    &quot;Python.main.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;E:/Projects/pythonProjects/Tkinter/xmlReadyLoader&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python.diffmodel.executor": "Run",
+    "Python.gui.executor": "Run",
+    "Python.interface.executor": "Run",
+    "Python.main.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "E:/Projects/pythonProjects/Tkinter/xmlReadyLoader/Наборы изменений",
+    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
+  },
+  "keyToStringList": {
+    "ChangesTree.GroupingKeys": [
+    ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Projects\pythonProjects\Tkinter\xmlReadyLoader\Наборы изменений" />
       <recent name="E:\Projects\pythonProjects\Tkinter\xmlReadyLoader" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Projects\pythonProjects\Tkinter\xmlReadyLoader\Наборы изменений" />
     </key>
   </component>
   <component name="RunManager" selected="Python.gui">
@@ -174,13 +181,30 @@
       <option name="project" value="LOCAL" />
       <updated>1717962766099</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="4. Commit v 1.0 app">
+      <option name="closed" value="true" />
+      <created>1717964953697</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1717964953697</updated>
+    </task>
+    <task id="LOCAL-00005" summary="4. Commit v 1.0 app">
+      <option name="closed" value="true" />
+      <created>1717965137509</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1717965137509</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="1. Commit" />
     <MESSAGE value="2. Commit" />
     <MESSAGE value="3. Commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="3. Commit" />
+    <MESSAGE value="4. Commit v 1.0 app" />
+    <option name="LAST_COMMIT_MESSAGE" value="4. Commit v 1.0 app" />
   </component>
 </project>

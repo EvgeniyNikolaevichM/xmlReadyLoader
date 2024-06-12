@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?iec61970-552 version="2.0"?>
+<?floatExporter 1?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:md="http://iec.ch/TC57/61970-552/ModelDescription/1#" xmlns:dm="http://iec.ch/TC57/61970-552/DifferenceModel/1#" xmlns:cim="http://iec.ch/TC57/2014/CIM-schema-cim16#" xmlns:cim17="http://iec.ch/TC57/2014/CIM-schema-cim17#" xmlns:me="http://monitel.com/2014/schema-cim16#" xmlns:rf="http://gost.ru/2019/schema-cim01#" xmlns:rh="http://rushydro.ru/2015/schema-cim16#" xmlns:so="http://so-ups.ru/2015/schema-cim16#">
+  <dm:DifferenceModel rdf:about="#_c425b214-45de-4f06-b6fd-6dac8f8d87ea" comment="Набор изменений версии модели [Организации с CIM-портала 03.06.2024+diff]:[2076] относительной версии модели [Организации с CIM-портала 03.06.2024]:[2075]">
+    <md:Model.created>2024-06-03T06:44:32.3335442Z</md:Model.created>
+    <md:Model.description>Набор изменений версии модели [Организации с CIM-портала 03.06.2024+diff]:[2076] относительной версии модели [Организации с CIM-портала 03.06.2024]:[2075]</md:Model.description>
+    <md:Model.version>ver:11.7.1.244;ext:1;</md:Model.version>
+    <me:Model.name>CIM16</me:Model.name>
+    <dm:forwardDifferences>
+      <cim:Organisation rdf:about="#_4c59a15b-0585-4888-97d5-7d1e6d63e319">
+        <cim:IdentifiedObject.name>ООО «Битривер-Б»</cim:IdentifiedObject.name>
+        <cim:Organisation.Roles rdf:resource="#_5fa1f797-65ce-4c79-9812-a763b1f17d0e" />
+        <cim:Organisation.Roles rdf:resource="#_fe2f53c3-cdad-41fe-b5a5-2ed9f418252f" />
+      </cim:Organisation>
+      <cim:Organisation rdf:about="#_1555a3d5-eb59-432c-9d96-c8ea2c3868ed">
+        <cim:IdentifiedObject.name>АО «Газпромнефть-ОНПЗ»</cim:IdentifiedObject.name>
+        <cim:Organisation.Roles rdf:resource="#_539f57ea-9779-485c-85d7-4a31af5b2327" />
+        <cim:Organisation.Roles rdf:resource="#_63b4507a-00af-4f4f-acd8-3dd5fd659823" />
+      </cim:Organisation>
+      <cim:AssetOwner rdf:about="#_5fa1f797-65ce-4c79-9812-a763b1f17d0e">
+        <cim:IdentifiedObject.name>Владение ООО «Битривер-Б»</cim:IdentifiedObject.name>
+        <cim:OrganisationRole.Organisation rdf:resource="#_4c59a15b-0585-4888-97d5-7d1e6d63e319" />
+      </cim:AssetOwner>
+      <cim:AssetOwner rdf:about="#_539f57ea-9779-485c-85d7-4a31af5b2327">
+        <cim:IdentifiedObject.name>Владение АО «Газпромнефть-ОНПЗ»</cim:IdentifiedObject.name>
+        <cim:OrganisationRole.Organisation rdf:resource="#_1555a3d5-eb59-432c-9d96-c8ea2c3868ed" />
+        <rf:OrganisationRole.Objects rdf:resource="#_354a4283-94f5-45c2-9a41-4a4d169c6922" />
+      </cim:AssetOwner>
+      <rdf:Description rdf:about="#_2236a044-2523-4460-be0f-f2cc6419e299" me:className="AssetOwner">
+        <rf:OrganisationRole.Objects rdf:resource="#_57beb652-982c-44bc-a31c-1c2c929946c2" />
+      </rdf:Description>
+      <so:AssetDataSource rdf:about="#_fe2f53c3-cdad-41fe-b5a5-2ed9f418252f">
+        <cim:IdentifiedObject.name>Источник информации по Приказу 1340 ООО «Битривер-Б»</cim:IdentifiedObject.name>
+        <cim:OrganisationRole.Organisation rdf:resource="#_4c59a15b-0585-4888-97d5-7d1e6d63e319" />
+      </so:AssetDataSource>
+      <so:AssetDataSource rdf:about="#_63b4507a-00af-4f4f-acd8-3dd5fd659823">
+        <cim:IdentifiedObject.name>Источник информации по Приказу 1340 АО «Газпромнефть-ОНПЗ»</cim:IdentifiedObject.name>
+        <cim:OrganisationRole.Organisation rdf:resource="#_1555a3d5-eb59-432c-9d96-c8ea2c3868ed" />
+        <rf:OrganisationRole.Objects rdf:resource="#_354a4283-94f5-45c2-9a41-4a4d169c6922" />
+      </so:AssetDataSource>
+      <rdf:Description rdf:about="#_02f8b8ba-cb31-4686-8ff9-a30555f95a31" me:className="AssetDataSource">
+        <rf:OrganisationRole.Objects rdf:resource="#_57beb652-982c-44bc-a31c-1c2c929946c2" />
+      </rdf:Description>
+    </dm:forwardDifferences>
+    </dm:reverseDifferences>
+  </dm:DifferenceModel>
+</rdf:RDF>
