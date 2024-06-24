@@ -10,6 +10,8 @@
   <cim:Line rdf:about="#_81e0df4f-43ba-4ec9-91b2-f2873f866255">
     <cim:PowerSystemResource.Assets rdf:resource="#_4bfe1e89-c7df-42ad-b9ba-841f37d64d95" />
     <cim:IdentifiedObject.mRID>81e0df4f-43ba-4ec9-91b2-f2873f866255</cim:IdentifiedObject.mRID>
+    <cim17:IdentifiedObject.mRID>81e0df4f-43ba-4ec9-91b2-f2873f866255</cim17:IdentifiedObject.mRID>
+    <rh:IdentifiedObject.mRID>81e0df4f-43ba-4ec9-91b2-f2873f866255</rh:IdentifiedObject.mRID>
     <cim:IdentifiedObject.name>Связь ТЭЦ Коксогаз - ПС 110 кВ Коксогаз №2</cim:IdentifiedObject.name>
     <rf:IdentifiedObject.OrganisationRoles rdf:resource="#_0ff5818b-a018-4253-9c5c-3bfdb61d1cc8" />
     <rf:IdentifiedObject.OrganisationRoles rdf:resource="#_4f606ca7-76af-4235-8ffd-a736198e0830" />
