@@ -2,7 +2,9 @@ from tkinter import filedialog, simpledialog, messagebox
 from base import BaseClass
 
 default_patterns = [
-    ('<me:', '>')
+    ('<me:', '>'),
+    ('<rh:', '>'),
+    ('<cim17:', '>')
 ]
 
 
@@ -13,7 +15,7 @@ def ready_custom_model():
                                                    filetypes=[("Text files", "*.xml")])
         if output_file:
             use_defaults = messagebox.askyesno("Использовать значения по умолчанию?",
-                                               "Хотите использовать кортежи символов для удаления по умолчанию?")
+                                               "Удалить теги me: rh: cim17:?")
             if use_defaults:
                 patterns = default_patterns
             else:
