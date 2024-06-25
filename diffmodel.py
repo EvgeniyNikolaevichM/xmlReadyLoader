@@ -2,6 +2,12 @@ from tkinter import filedialog, messagebox
 
 from base import BaseClass
 
+patterns = [
+    ('<me:', '>'),
+    ('<rh:', '>'),
+    ('<cim17:', '>')
+]
+
 
 def ready_diff_model():
     input_file = filedialog.askopenfilename(title="Выберите входной файл")
@@ -18,6 +24,7 @@ def ready_diff_model():
             obj.remove_lines_start(9)
             obj.add_header_lines()
             obj.remove_me_class_name()
+            obj.remove_by_patterns(patterns)
             obj.update_lines(old_string, new_string)
             obj.update_lines(old_string2, new_string2)
             obj.save_file(output_file)

@@ -4,8 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a0f21b51-fa8c-48da-a578-8666c03e846e" name="Changes" comment="5. Commit v 1.1 app">
+    <list default="true" id="a0f21b51-fa8c-48da-a578-8666c03e846e" name="Changes" comment="6. Commit v 1.2 app">
+      <change afterPath="$PROJECT_DIR$/diffmodelGOST.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/about.py" beforeDir="false" afterPath="$PROJECT_DIR$/about.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/custommodel.py" beforeDir="false" afterPath="$PROJECT_DIR$/custommodel.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/diffmodel.py" beforeDir="false" afterPath="$PROJECT_DIR$/diffmodel.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fullmodelGOST.py" beforeDir="false" afterPath="$PROJECT_DIR$/fullmodelGOST.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gui.py" beforeDir="false" afterPath="$PROJECT_DIR$/gui.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Наборы изменений/output.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Наборы изменений/output.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,6 +27,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="add-GOST-export" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -34,28 +46,28 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Python.diffmodel.executor&quot;: &quot;Run&quot;,
-    &quot;Python.gui.executor&quot;: &quot;Run&quot;,
-    &quot;Python.interface.executor&quot;: &quot;Run&quot;,
-    &quot;Python.main.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;E:/Projects/pythonProjects/Tkinter/xmlReadyLoader/Наборы изменений&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python.diffmodel.executor": "Run",
+    "Python.gui.executor": "Run",
+    "Python.interface.executor": "Run",
+    "Python.main.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "v1.4-with-diffGOST",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "E:/Projects/pythonProjects/Tkinter/xmlReadyLoader",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;ChangesTree.GroupingKeys&quot;: [
+  "keyToStringList": {
+    "ChangesTree.GroupingKeys": [
     ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\Projects\pythonProjects\Tkinter\xmlReadyLoader\Наборы изменений" />
       <recent name="E:\Projects\pythonProjects\Tkinter\xmlReadyLoader" />
+      <recent name="E:\Projects\pythonProjects\Tkinter\xmlReadyLoader\Наборы изменений" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\Projects\pythonProjects\Tkinter\xmlReadyLoader\Наборы изменений" />
@@ -132,6 +144,8 @@
       <list>
         <item itemvalue="Python.gui" />
         <item itemvalue="Python.base" />
+        <item itemvalue="Python.gui" />
+        <item itemvalue="Python.base" />
       </list>
     </recent_temporary>
   </component>
@@ -191,7 +205,31 @@
       <option name="project" value="LOCAL" />
       <updated>1717965137509</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="5. Commit v 1.1 app">
+      <option name="closed" value="true" />
+      <created>1719253276133</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1719253276133</updated>
+    </task>
+    <task id="LOCAL-00007" summary="5. Commit v 1.1 app">
+      <option name="closed" value="true" />
+      <created>1719253299067</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1719253299068</updated>
+    </task>
+    <task id="LOCAL-00008" summary="5. Commit v 1.1 app">
+      <option name="closed" value="true" />
+      <created>1719257382873</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1719257382873</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -199,6 +237,7 @@
     <MESSAGE value="2. Commit" />
     <MESSAGE value="3. Commit" />
     <MESSAGE value="4. Commit v 1.0 app" />
-    <option name="LAST_COMMIT_MESSAGE" value="4. Commit v 1.0 app" />
+    <MESSAGE value="5. Commit v 1.1 app" />
+    <option name="LAST_COMMIT_MESSAGE" value="5. Commit v 1.1 app" />
   </component>
 </project>

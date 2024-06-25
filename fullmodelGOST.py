@@ -3,7 +3,7 @@ from tkinter import filedialog, messagebox
 from base import BaseClass
 
 
-def convert_to_diff_special():
+def convert_to_diff_gost():
     input_file = filedialog.askopenfilename(title="Выберите входной файл")
     if input_file:
         output_file = filedialog.asksaveasfilename(title="Сохранить как", defaultextension=".xml",
