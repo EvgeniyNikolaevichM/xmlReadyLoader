@@ -1,48 +1,136 @@
-<?xml version="1.0" encoding="utf-8" standalone="no"?>
-<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:so="http://so-ups.ru/2015/schema-cim16#" xmlns:cim="http://iec.ch/TC57/CIM100#" xmlns:dm="http://iec.ch/TC57/61970-552/DifferenceModel/1#" xmlns:rf="http://gost.ru/2019/schema-cim01#" xmlns:ups="https://cim.so-ups.ru#" xml:base="">
-  <dm:DifferenceModel>
-    <dm:forwardDifferences rdf:parseType="Statements" xml:base="https://cim.so-ups.ru#">
-      <cim:Organisation rdf:about="#_4c59a15b-0585-4888-97d5-7d1e6d63e319">
-        <cim:IdentifiedObject.name>ООО «Битривер-Б»</cim:IdentifiedObject.name>
-        <cim:Organisation.Roles rdf:resource="#_5fa1f797-65ce-4c79-9812-a763b1f17d0e" />
-        <cim:Organisation.Roles rdf:resource="#_fe2f53c3-cdad-41fe-b5a5-2ed9f418252f" />
+sfsfs
+<?xml version="1.0" encoding="utf-8"?>
+<?iec61970-552 version="2.0"?>
+<?floatExporter 1?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:md="http://iec.ch/TC57/61970-552/ModelDescription/1#" xmlns:dm="http://iec.ch/TC57/61970-552/DifferenceModel/1#" xmlns:cim="http://iec.ch/TC57/CIM100#" xmlns:rf="http://gost.ru/2019/schema-cim01#">
+  <dm:DifferenceModel rdf:about="#_19b95136-a3ee-4af4-9602-1a9adaeb6afb">
+    <md:Model.created>2024-06-25T13:54:44.1446578Z</md:Model.created>
+    <dm:forwardDifferences>
+      <cim:Organisation rdf:about="#_5e0e4512-d529-42da-87ac-d16ad76bf4b3">
+        <cim:IdentifiedObject.name>Филиал АО «НАК «Азот» Новомосковская ГРЭС</cim:IdentifiedObject.name>
+        <cim:Organisation.Roles rdf:resource="#_19b68760-74df-4d9f-9a85-79fd76e5a0c9" />
+        <rf:Organisation.ParentOrganisation rdf:resource="#_27987e07-9597-44d9-9601-210c1e8e0b4e" />
       </cim:Organisation>
-      <cim:Organisation rdf:about="#_1555a3d5-eb59-432c-9d96-c8ea2c3868ed">
-        <cim:IdentifiedObject.name>АО «Газпромнефть-ОНПЗ»</cim:IdentifiedObject.name>
-        <cim:Organisation.Roles rdf:resource="#_539f57ea-9779-485c-85d7-4a31af5b2327" />
-        <cim:Organisation.Roles rdf:resource="#_63b4507a-00af-4f4f-acd8-3dd5fd659823" />
-      </cim:Organisation>
-      <cim:AssetOwner rdf:about="#_5fa1f797-65ce-4c79-9812-a763b1f17d0e">
-        <cim:IdentifiedObject.name>Владение ООО «Битривер-Б»</cim:IdentifiedObject.name>
-        <cim:OrganisationRole.Organisation rdf:resource="#_4c59a15b-0585-4888-97d5-7d1e6d63e319" />
-      </cim:AssetOwner>
-      <cim:AssetOwner rdf:about="#_539f57ea-9779-485c-85d7-4a31af5b2327">
-        <cim:IdentifiedObject.name>Владение АО «Газпромнефть-ОНПЗ»</cim:IdentifiedObject.name>
-        <cim:OrganisationRole.Organisation rdf:resource="#_1555a3d5-eb59-432c-9d96-c8ea2c3868ed" />
-        <rf:OrganisationRole.Objects rdf:resource="#_354a4283-94f5-45c2-9a41-4a4d169c6922" />
-      </cim:AssetOwner>
-      <rdf:Description rdf:about="#_2236a044-2523-4460-be0f-f2cc6419e299" >
-        <rf:OrganisationRole.Objects rdf:resource="#_57beb652-982c-44bc-a31c-1c2c929946c2" />
+      <rdf:Description rdf:about="#_27987e07-9597-44d9-9601-210c1e8e0b4e">
+        <rf:Organisation.ChildOrganisations rdf:resource="#_5e0e4512-d529-42da-87ac-d16ad76bf4b3" />
       </rdf:Description>
-      <so:AssetDataSource rdf:about="#_fe2f53c3-cdad-41fe-b5a5-2ed9f418252f">
-        <cim:IdentifiedObject.name>Источник информации по Приказу 1340 ООО «Битривер-Б»</cim:IdentifiedObject.name>
-        <cim:OrganisationRole.Organisation rdf:resource="#_4c59a15b-0585-4888-97d5-7d1e6d63e319" />
-      </so:AssetDataSource>
-      <so:AssetDataSource rdf:about="#_63b4507a-00af-4f4f-acd8-3dd5fd659823">
-        <cim:IdentifiedObject.name>Источник информации по Приказу 1340 АО «Газпромнефть-ОНПЗ»</cim:IdentifiedObject.name>
-        <cim:OrganisationRole.Organisation rdf:resource="#_1555a3d5-eb59-432c-9d96-c8ea2c3868ed" />
-        <rf:OrganisationRole.Objects rdf:resource="#_354a4283-94f5-45c2-9a41-4a4d169c6922" />
-      </so:AssetDataSource>
-      <rdf:Description rdf:about="#_02f8b8ba-cb31-4686-8ff9-a30555f95a31" >
-        <rf:OrganisationRole.Objects rdf:resource="#_57beb652-982c-44bc-a31c-1c2c929946c2" />
+      <cim:Organisation rdf:about="#_390e0745-4ec2-40b7-b6d2-0bd7dc73cbdc">
+        <cim:IdentifiedObject.name>Филиал АО «Квадра» - «Тамбовская генерация»</cim:IdentifiedObject.name>
+        <cim:Organisation.Roles rdf:resource="#_32d3df0a-f362-4b7d-836f-4df6e7128123" />
+        <rf:Organisation.ParentOrganisation rdf:resource="#_c468a274-4e69-4325-8ed6-35b87aa8026f" />
+      </cim:Organisation>
+      <rdf:Description rdf:about="#_c468a274-4e69-4325-8ed6-35b87aa8026f">
+        <rf:Organisation.ChildOrganisations rdf:resource="#_390e0745-4ec2-40b7-b6d2-0bd7dc73cbdc" />
+      </rdf:Description>
+      <rdf:Description rdf:about="#_9bd5d9c9-e066-4afe-9f4c-880652c63b54">
+        <rf:IdentifiedObject.OrganisationRoles rdf:resource="#_19b68760-74df-4d9f-9a85-79fd76e5a0c9" />
+      </rdf:Description>
+      <rdf:Description rdf:about="#_96bcf9d8-22f3-46c6-80d3-974856edd367">
+        <rf:IdentifiedObject.OrganisationRoles rdf:resource="#_32d3df0a-f362-4b7d-836f-4df6e7128123" />
+      </rdf:Description>
+      <rdf:Description rdf:about="#_954c48ca-2507-4d87-b5ef-c32da1382585">
+        <rf:IdentifiedObject.OrganisationRoles rdf:resource="#_32d3df0a-f362-4b7d-836f-4df6e7128123" />
+      </rdf:Description>
+      <rdf:Description rdf:about="#_07fa87f1-57e7-4b7f-947b-07ec459e718a">
+        <rf:IdentifiedObject.OrganisationRoles rdf:resource="#_ee3cc832-4320-4629-ade5-0a6362d6b8a4" />
+        <rf:IdentifiedObject.OrganisationRoles rdf:resource="#_37049ee3-f69d-4afb-9e2d-7d07faf4bab9" />
+      </rdf:Description>
+      <rdf:Description rdf:about="#_60cc5c51-1411-42bb-a18b-b25f50e5c7e2">
+        <rf:IdentifiedObject.OrganisationRoles rdf:resource="#_ee3cc832-4320-4629-ade5-0a6362d6b8a4" />
+        <rf:IdentifiedObject.OrganisationRoles rdf:resource="#_37049ee3-f69d-4afb-9e2d-7d07faf4bab9" />
+      </rdf:Description>
+      <rdf:Description rdf:about="#_a1f59c92-a57c-4ded-925e-041ea9fbb6a0">
+        <rf:IdentifiedObject.OrganisationRoles rdf:resource="#_9d49298f-d5ea-4ded-8484-fabdba5d09b3" />
+      </rdf:Description>
+      <rdf:Description rdf:about="#_65d90d05-5884-4176-931d-6242021e07b0">
+        <rf:IdentifiedObject.OrganisationRoles rdf:resource="#_9d49298f-d5ea-4ded-8484-fabdba5d09b3" />
+      </rdf:Description>
+      <rdf:Description rdf:about="#_b92cd344-287b-42cb-9c76-81c7a1f65738">
+        <rf:IdentifiedObject.OrganisationRoles rdf:resource="#_9d49298f-d5ea-4ded-8484-fabdba5d09b3" />
+      </rdf:Description>
+      <rdf:Description rdf:about="#_67a0ff9e-c788-40fb-b1c0-c6cddaac5a34">
+        <rf:IdentifiedObject.OrganisationRoles rdf:resource="#_9d49298f-d5ea-4ded-8484-fabdba5d09b3" />
+        <rf:IdentifiedObject.OrganisationRoles rdf:resource="#_994edfb6-1259-4342-bf82-7bd7fcead384" />
+      </rdf:Description>
+      <rdf:Description rdf:about="#_994edfb6-1259-4342-bf82-7bd7fcead384">
+        <rf:OrganisationRole.Objects rdf:resource="#_67a0ff9e-c788-40fb-b1c0-c6cddaac5a34" />
+      </rdf:Description>
+      <rdf:Description rdf:about="#_37049ee3-f69d-4afb-9e2d-7d07faf4bab9">
+        <rf:OrganisationRole.Objects rdf:resource="#_07fa87f1-57e7-4b7f-947b-07ec459e718a" />
+        <rf:OrganisationRole.Objects rdf:resource="#_60cc5c51-1411-42bb-a18b-b25f50e5c7e2" />
+      </rdf:Description>
+      <rdf:Description rdf:about="#_9d49298f-d5ea-4ded-8484-fabdba5d09b3">
+        <rf:OrganisationRole.Objects rdf:resource="#_67a0ff9e-c788-40fb-b1c0-c6cddaac5a34" />
+        <rf:OrganisationRole.Objects rdf:resource="#_65d90d05-5884-4176-931d-6242021e07b0" />
+        <rf:OrganisationRole.Objects rdf:resource="#_b92cd344-287b-42cb-9c76-81c7a1f65738" />
+        <rf:OrganisationRole.Objects rdf:resource="#_a1f59c92-a57c-4ded-925e-041ea9fbb6a0" />
+      </rdf:Description>
+      <cim:OrganisationRole rdf:about="#_19b68760-74df-4d9f-9a85-79fd76e5a0c9">
+        <cim:IdentifiedObject.name>Источник информации по Приказу 1340 Филиал АО «НАК «Азот» Новомосковская ГРЭС</cim:IdentifiedObject.name>
+        <cim:OrganisationRole.Organisation rdf:resource="#_5e0e4512-d529-42da-87ac-d16ad76bf4b3" />
+        <rf:OrganisationRole.Objects rdf:resource="#_9bd5d9c9-e066-4afe-9f4c-880652c63b54" />
+      </cim:OrganisationRole>
+      <cim:OrganisationRole rdf:about="#_32d3df0a-f362-4b7d-836f-4df6e7128123">
+        <cim:IdentifiedObject.name>Источник информации по Приказу 1340 Филиал АО «Квадра» - «Тамбовская генерация»</cim:IdentifiedObject.name>
+        <cim:OrganisationRole.Organisation rdf:resource="#_390e0745-4ec2-40b7-b6d2-0bd7dc73cbdc" />
+        <rf:OrganisationRole.Objects rdf:resource="#_96bcf9d8-22f3-46c6-80d3-974856edd367" />
+        <rf:OrganisationRole.Objects rdf:resource="#_954c48ca-2507-4d87-b5ef-c32da1382585" />
+      </cim:OrganisationRole>
+      <rdf:Description rdf:about="#_ee3cc832-4320-4629-ade5-0a6362d6b8a4">
+        <rf:OrganisationRole.Objects rdf:resource="#_07fa87f1-57e7-4b7f-947b-07ec459e718a" />
+        <rf:OrganisationRole.Objects rdf:resource="#_60cc5c51-1411-42bb-a18b-b25f50e5c7e2" />
       </rdf:Description>
     </dm:forwardDifferences>
-    <dm:reverseDifferences rdf:parseType="Statements" xml:base="https://cim.so-ups.ru#">
-      <rdf:Description rdf:about="#_98713c1b-dade-4d38-95be-48b4ed190c38" >
-        <rf:OrganisationRole.Objects rdf:resource="#_57beb652-982c-44bc-a31c-1c2c929946c2" />
+    <dm:reverseDifferences>
+      <rdf:Description rdf:about="#_9bd5d9c9-e066-4afe-9f4c-880652c63b54">
+        <rf:IdentifiedObject.OrganisationRoles rdf:resource="#_6bf585a1-f32c-4e59-acb9-2cd915bfa293" />
       </rdf:Description>
-      <rdf:Description rdf:about="#_d17ecaa2-1dcf-48f5-a927-3a67919b11f9" >
-        <rf:OrganisationRole.Objects rdf:resource="#_57beb652-982c-44bc-a31c-1c2c929946c2" />
+      <rdf:Description rdf:about="#_96bcf9d8-22f3-46c6-80d3-974856edd367">
+        <rf:IdentifiedObject.OrganisationRoles rdf:resource="#_bf430fac-993f-4a02-879e-cc96061dc0ab" />
+      </rdf:Description>
+      <rdf:Description rdf:about="#_954c48ca-2507-4d87-b5ef-c32da1382585">
+        <rf:IdentifiedObject.OrganisationRoles rdf:resource="#_bf430fac-993f-4a02-879e-cc96061dc0ab" />
+      </rdf:Description>
+      <rdf:Description rdf:about="#_9843944c-cc73-4d4c-be58-5177978b5bb4">
+        <rf:IdentifiedObject.OrganisationRoles rdf:resource="#_ee3cc832-4320-4629-ade5-0a6362d6b8a4" />
+        <rf:IdentifiedObject.OrganisationRoles rdf:resource="#_37049ee3-f69d-4afb-9e2d-7d07faf4bab9" />
+      </rdf:Description>
+      <rdf:Description rdf:about="#_a1f59c92-a57c-4ded-925e-041ea9fbb6a0">
+        <rf:IdentifiedObject.OrganisationRoles rdf:resource="#_c230ac30-9b50-492d-afb1-9200c8c276ce" />
+      </rdf:Description>
+      <rdf:Description rdf:about="#_65d90d05-5884-4176-931d-6242021e07b0">
+        <rf:IdentifiedObject.OrganisationRoles rdf:resource="#_c230ac30-9b50-492d-afb1-9200c8c276ce" />
+      </rdf:Description>
+      <rdf:Description rdf:about="#_b92cd344-287b-42cb-9c76-81c7a1f65738">
+        <rf:IdentifiedObject.OrganisationRoles rdf:resource="#_c230ac30-9b50-492d-afb1-9200c8c276ce" />
+      </rdf:Description>
+      <rdf:Description rdf:about="#_67a0ff9e-c788-40fb-b1c0-c6cddaac5a34">
+        <rf:IdentifiedObject.OrganisationRoles rdf:resource="#_2b82a7cc-d744-4def-a675-a98d3453a0f9" />
+        <rf:IdentifiedObject.OrganisationRoles rdf:resource="#_38e0cc3f-1f9d-4131-a18b-d4a76251c74f" />
+      </rdf:Description>
+      <rdf:Description rdf:about="#_2b82a7cc-d744-4def-a675-a98d3453a0f9">
+        <rf:OrganisationRole.Objects rdf:resource="#_67a0ff9e-c788-40fb-b1c0-c6cddaac5a34" />
+      </rdf:Description>
+      <rdf:Description rdf:about="#_37049ee3-f69d-4afb-9e2d-7d07faf4bab9">
+        <rf:OrganisationRole.Objects rdf:resource="#_9843944c-cc73-4d4c-be58-5177978b5bb4" />
+      </rdf:Description>
+      <rdf:Description rdf:about="#_c230ac30-9b50-492d-afb1-9200c8c276ce">
+        <rf:OrganisationRole.Objects rdf:resource="#_65d90d05-5884-4176-931d-6242021e07b0" />
+        <rf:OrganisationRole.Objects rdf:resource="#_b92cd344-287b-42cb-9c76-81c7a1f65738" />
+        <rf:OrganisationRole.Objects rdf:resource="#_a1f59c92-a57c-4ded-925e-041ea9fbb6a0" />
+      </rdf:Description>
+      <rdf:Description rdf:about="#_38e0cc3f-1f9d-4131-a18b-d4a76251c74f">
+        <rf:OrganisationRole.Objects rdf:resource="#_67a0ff9e-c788-40fb-b1c0-c6cddaac5a34" />
+      </rdf:Description>
+      <rdf:Description rdf:about="#_6bf585a1-f32c-4e59-acb9-2cd915bfa293">
+        <rf:OrganisationRole.Objects rdf:resource="#_9bd5d9c9-e066-4afe-9f4c-880652c63b54" />
+      </rdf:Description>
+      <rdf:Description rdf:about="#_ee3cc832-4320-4629-ade5-0a6362d6b8a4">
+        <rf:OrganisationRole.Objects rdf:resource="#_9843944c-cc73-4d4c-be58-5177978b5bb4" />
+      </rdf:Description>
+      <rdf:Description rdf:about="#_bf430fac-993f-4a02-879e-cc96061dc0ab">
+        <rf:OrganisationRole.Objects rdf:resource="#_954c48ca-2507-4d87-b5ef-c32da1382585" />
+        <rf:OrganisationRole.Objects rdf:resource="#_96bcf9d8-22f3-46c6-80d3-974856edd367" />
       </rdf:Description>
     </dm:reverseDifferences>
   </dm:DifferenceModel>

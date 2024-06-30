@@ -25,7 +25,7 @@ class BaseClass:
             'xmlns:dm="http://iec.ch/TC57/61970-552/DifferenceModel/1#" xmlns:rf="http://gost.ru/2019/schema-cim01#" '
             'xmlns:ups="https://cim.so-ups.ru#" xml:base="">\n',
             '  <dm:DifferenceModel>\n'
-            ]
+        ]
         self.lines = lines_to_add + self.lines
 
     def add_footer_lines_for_full(self):
@@ -37,6 +37,15 @@ class BaseClass:
             '</rdf:RDF>\n',
         ]
         self.lines = self.lines + lines_to_add
+
+    def add_line_by_index(self, index, add_string):
+        self.lines.insert(index, add_string + '\n')
+
+    def update_lines(self, old_string, new_string):
+        self.lines = [
+            line.replace(old_string, new_string) if old_string in line else line
+            for line in self.lines
+        ]
 
     def remove_lines_start(self, count_start):
         self.lines = self.lines[count_start:]
@@ -64,14 +73,31 @@ class BaseClass:
                 filtered_lines.append(line)
         self.lines = filtered_lines
 
+    def remove_empty_descriptions(self):
+        filtered_lines = []
+        in_description_block = False
+        description_block = []
+        pattern_start = re.compile(r'<rdf:Description\s+[^>]*>')
+        pattern_end = re.compile(r'</rdf:Description>')
+
+        for line in self.lines:
+            if not in_description_block:
+                if pattern_start.search(line):
+                    in_description_block = True
+                    description_block = [line]
+                else:
+                    filtered_lines.append(line)
+            else:
+                description_block.append(line)
+                if pattern_end.search(line):
+                    in_description_block = False
+                    # Check if block is empty except for the start and end tags
+                    if len(description_block) == 2 and all(
+                            pattern.search(l) for pattern, l in zip([pattern_start, pattern_end], description_block)):
+                        continue
+                    filtered_lines.extend(description_block)
+
+        self.lines = filtered_lines
+
     def remove_zwnbsp(self):
         self.lines = [line.replace('\ufeff', '') for line in self.lines]
-
-    def update_lines(self, old_string, new_string):
-        self.lines = [
-            line.replace(old_string, new_string) if old_string in line else line
-            for line in self.lines
-        ]
-
-    def add_line_by_index(self, index, add_string):
-        self.lines.insert(index, add_string + '\n')

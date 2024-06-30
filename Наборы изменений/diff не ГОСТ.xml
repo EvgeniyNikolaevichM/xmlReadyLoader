@@ -1,0 +1,259 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?iec61970-552 version="2.0"?>
+<?floatExporter 1?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:md="http://iec.ch/TC57/61970-552/ModelDescription/1#" xmlns:dm="http://iec.ch/TC57/61970-552/DifferenceModel/1#" xmlns:cim="http://iec.ch/TC57/2014/CIM-schema-cim16#" xmlns:cim17="http://iec.ch/TC57/2014/CIM-schema-cim17#" xmlns:me="http://monitel.com/2014/schema-cim16#" xmlns:rf="http://gost.ru/2019/schema-cim01#" xmlns:rh="http://rushydro.ru/2015/schema-cim16#" xmlns:so="http://so-ups.ru/2015/schema-cim16#">
+  <dm:DifferenceModel rdf:about="#_7d9b07ad-06c2-4f1f-b693-5803f7244f7a" comment="Набор изменений версии модели [Организации CIM-портал+diff  04.06.2024]:[2078] относительной версии модели [Организации CIM-портал 04.06.2024]:[2077]">
+    <md:Model.created>2024-06-25T13:54:12.922619Z</md:Model.created>
+    <md:Model.description>Набор изменений версии модели [Организации CIM-портал+diff  04.06.2024]:[2078] относительной версии модели [Организации CIM-портал 04.06.2024]:[2077]</md:Model.description>
+    <md:Model.version>ver:11.7.1.244;ext:1;</md:Model.version>
+    <me:Model.name>CIM16</me:Model.name>
+    <dm:forwardDifferences>
+      <me:Folder rdf:about="#_ec384553-0a51-459a-95eb-c24af693c87e">
+        <cim:IdentifiedObject.name>Роли</cim:IdentifiedObject.name>
+        <me:IdentifiedObject.ChildObjects rdf:resource="#_9d49298f-d5ea-4ded-8484-fabdba5d09b3" />
+        <me:IdentifiedObject.ChildObjects rdf:resource="#_413ac602-a746-4731-ba79-fc52f8159fbb" />
+        <me:IdentifiedObject.ParentObject rdf:resource="#_8b6d195c-225b-4c59-a284-6b2be86f380f" />
+        <me:Folder.CreatingNode rdf:resource="#_9fe21e3d-b80d-470f-acfb-93447357da3d" />
+      </me:Folder>
+      <me:Folder rdf:about="#_c8fda30a-24e3-407e-b635-dd5e017d3e6d">
+        <cim:IdentifiedObject.name>Роли</cim:IdentifiedObject.name>
+        <me:IdentifiedObject.ChildObjects rdf:resource="#_19b68760-74df-4d9f-9a85-79fd76e5a0c9" />
+        <me:IdentifiedObject.ParentObject rdf:resource="#_5e0e4512-d529-42da-87ac-d16ad76bf4b3" />
+        <me:Folder.CreatingNode rdf:resource="#_9fe21e3d-b80d-470f-acfb-93447357da3d" />
+      </me:Folder>
+      <me:Folder rdf:about="#_48ee6764-6bca-4bc7-a219-46765812cd8e">
+        <cim:IdentifiedObject.name>Роли</cim:IdentifiedObject.name>
+        <me:IdentifiedObject.ChildObjects rdf:resource="#_32d3df0a-f362-4b7d-836f-4df6e7128123" />
+        <me:IdentifiedObject.ParentObject rdf:resource="#_390e0745-4ec2-40b7-b6d2-0bd7dc73cbdc" />
+        <me:Folder.CreatingNode rdf:resource="#_9fe21e3d-b80d-470f-acfb-93447357da3d" />
+      </me:Folder>
+      <me:Folder rdf:about="#_fa3ba034-6bbe-4cb3-ab53-26b43fe7a94b">
+        <cim:IdentifiedObject.name>Роли</cim:IdentifiedObject.name>
+        <me:IdentifiedObject.ChildObjects rdf:resource="#_f7bcd392-0095-44f1-b3ff-8a37313f4475" />
+        <me:IdentifiedObject.ParentObject rdf:resource="#_e737f54e-2839-485b-afbc-67e55b1a3e53" />
+        <me:Folder.CreatingNode rdf:resource="#_9fe21e3d-b80d-470f-acfb-93447357da3d" />
+      </me:Folder>
+      <me:Folder rdf:about="#_1d46ec8a-e022-4cb2-8e9e-a5b782220876">
+        <cim:IdentifiedObject.name>Роли</cim:IdentifiedObject.name>
+        <me:IdentifiedObject.ChildObjects rdf:resource="#_ef703137-db59-4125-bfd2-160f36694a27" />
+        <me:IdentifiedObject.ParentObject rdf:resource="#_238087d8-ba23-43cc-b85d-7b615f108b83" />
+        <me:Folder.CreatingNode rdf:resource="#_9fe21e3d-b80d-470f-acfb-93447357da3d" />
+      </me:Folder>
+      <rdf:Description rdf:about="#_ea20afb6-36de-45d9-bc3a-158b1bdd7489" me:className="RoleCategory">
+        <me:RoleCategory.CategoryOrganisationRoles rdf:resource="#_9d49298f-d5ea-4ded-8484-fabdba5d09b3" />
+      </rdf:Description>
+      <rdf:Description rdf:about="#_10000d7e-0000-0000-c000-0000006d746c" me:className="RoleCategory">
+        <me:RoleCategory.CategoryOrganisationRoles rdf:resource="#_413ac602-a746-4731-ba79-fc52f8159fbb" />
+        <me:RoleCategory.CategoryOrganisationRoles rdf:resource="#_ef703137-db59-4125-bfd2-160f36694a27" />
+        <me:RoleCategory.CategoryOrganisationRoles rdf:resource="#_f7bcd392-0095-44f1-b3ff-8a37313f4475" />
+      </rdf:Description>
+      <rdf:Description rdf:about="#_9fe21e3d-b80d-470f-acfb-93447357da3d" me:className="FolderNode">
+        <me:FolderNode.Folders rdf:resource="#_ec384553-0a51-459a-95eb-c24af693c87e" />
+        <me:FolderNode.Folders rdf:resource="#_c8fda30a-24e3-407e-b635-dd5e017d3e6d" />
+        <me:FolderNode.Folders rdf:resource="#_48ee6764-6bca-4bc7-a219-46765812cd8e" />
+        <me:FolderNode.Folders rdf:resource="#_fa3ba034-6bbe-4cb3-ab53-26b43fe7a94b" />
+        <me:FolderNode.Folders rdf:resource="#_1d46ec8a-e022-4cb2-8e9e-a5b782220876" />
+      </rdf:Description>
+      <rdf:Description rdf:about="#_23f13771-3b05-48d1-a8cb-43dca6694f80" me:className="Organisation">
+        <me:IdentifiedObject.ParentObject rdf:resource="#_78930ea1-7d1b-466f-8243-dd2feb88aafc" />
+      </rdf:Description>
+      <rdf:Description rdf:about="#_78930ea1-7d1b-466f-8243-dd2feb88aafc" me:className="Organisation">
+        <me:IdentifiedObject.ChildObjects rdf:resource="#_23f13771-3b05-48d1-a8cb-43dca6694f80" />
+      </rdf:Description>
+      <rdf:Description rdf:about="#_8b6d195c-225b-4c59-a284-6b2be86f380f" me:className="Organisation">
+        <me:IdentifiedObject.ChildObjects rdf:resource="#_ec384553-0a51-459a-95eb-c24af693c87e" />
+      </rdf:Description>
+      <cim:Organisation rdf:about="#_5e0e4512-d529-42da-87ac-d16ad76bf4b3">
+        <cim:IdentifiedObject.name>Филиал АО «НАК «Азот» Новомосковская ГРЭС</cim:IdentifiedObject.name>
+        <cim:Organisation.Roles rdf:resource="#_19b68760-74df-4d9f-9a85-79fd76e5a0c9" />
+        <me:IdentifiedObject.ChildObjects rdf:resource="#_c8fda30a-24e3-407e-b635-dd5e017d3e6d" />
+        <me:IdentifiedObject.ParentObject rdf:resource="#_27987e07-9597-44d9-9601-210c1e8e0b4e" />
+        <rf:Organisation.ParentOrganisation rdf:resource="#_27987e07-9597-44d9-9601-210c1e8e0b4e" />
+      </cim:Organisation>
+      <rdf:Description rdf:about="#_27987e07-9597-44d9-9601-210c1e8e0b4e" me:className="Organisation">
+        <me:IdentifiedObject.ChildObjects rdf:resource="#_5e0e4512-d529-42da-87ac-d16ad76bf4b3" />
+        <rf:Organisation.ChildOrganisations rdf:resource="#_5e0e4512-d529-42da-87ac-d16ad76bf4b3" />
+      </rdf:Description>
+      <cim:Organisation rdf:about="#_390e0745-4ec2-40b7-b6d2-0bd7dc73cbdc">
+        <cim:IdentifiedObject.name>Филиал АО «Квадра» - «Тамбовская генерация»</cim:IdentifiedObject.name>
+        <cim:Organisation.Roles rdf:resource="#_32d3df0a-f362-4b7d-836f-4df6e7128123" />
+        <me:IdentifiedObject.ChildObjects rdf:resource="#_48ee6764-6bca-4bc7-a219-46765812cd8e" />
+        <me:IdentifiedObject.ParentObject rdf:resource="#_c468a274-4e69-4325-8ed6-35b87aa8026f" />
+        <rf:Organisation.ParentOrganisation rdf:resource="#_c468a274-4e69-4325-8ed6-35b87aa8026f" />
+      </cim:Organisation>
+      <rdf:Description rdf:about="#_c468a274-4e69-4325-8ed6-35b87aa8026f" me:className="Organisation">
+        <me:IdentifiedObject.ChildObjects rdf:resource="#_390e0745-4ec2-40b7-b6d2-0bd7dc73cbdc" />
+        <rf:Organisation.ChildOrganisations rdf:resource="#_390e0745-4ec2-40b7-b6d2-0bd7dc73cbdc" />
+      </rdf:Description>
+      <rdf:Description rdf:about="#_e737f54e-2839-485b-afbc-67e55b1a3e53" me:className="Organisation">
+        <me:IdentifiedObject.ChildObjects rdf:resource="#_fa3ba034-6bbe-4cb3-ab53-26b43fe7a94b" />
+      </rdf:Description>
+      <rdf:Description rdf:about="#_238087d8-ba23-43cc-b85d-7b615f108b83" me:className="Organisation">
+        <me:IdentifiedObject.ChildObjects rdf:resource="#_1d46ec8a-e022-4cb2-8e9e-a5b782220876" />
+      </rdf:Description>
+      <rdf:Description rdf:about="#_9bd5d9c9-e066-4afe-9f4c-880652c63b54" me:className="Plant">
+        <rf:IdentifiedObject.OrganisationRoles rdf:resource="#_19b68760-74df-4d9f-9a85-79fd76e5a0c9" />
+      </rdf:Description>
+      <rdf:Description rdf:about="#_96bcf9d8-22f3-46c6-80d3-974856edd367" me:className="Plant">
+        <rf:IdentifiedObject.OrganisationRoles rdf:resource="#_32d3df0a-f362-4b7d-836f-4df6e7128123" />
+      </rdf:Description>
+      <rdf:Description rdf:about="#_954c48ca-2507-4d87-b5ef-c32da1382585" me:className="Plant">
+        <rf:IdentifiedObject.OrganisationRoles rdf:resource="#_32d3df0a-f362-4b7d-836f-4df6e7128123" />
+      </rdf:Description>
+      <rdf:Description rdf:about="#_07fa87f1-57e7-4b7f-947b-07ec459e718a" me:className="Bay">
+        <rf:IdentifiedObject.OrganisationRoles rdf:resource="#_ee3cc832-4320-4629-ade5-0a6362d6b8a4" />
+        <rf:IdentifiedObject.OrganisationRoles rdf:resource="#_37049ee3-f69d-4afb-9e2d-7d07faf4bab9" />
+      </rdf:Description>
+      <rdf:Description rdf:about="#_60cc5c51-1411-42bb-a18b-b25f50e5c7e2" me:className="Bay">
+        <rf:IdentifiedObject.OrganisationRoles rdf:resource="#_ee3cc832-4320-4629-ade5-0a6362d6b8a4" />
+        <rf:IdentifiedObject.OrganisationRoles rdf:resource="#_37049ee3-f69d-4afb-9e2d-7d07faf4bab9" />
+      </rdf:Description>
+      <rdf:Description rdf:about="#_a1f59c92-a57c-4ded-925e-041ea9fbb6a0" me:className="Substation">
+        <rf:IdentifiedObject.OrganisationRoles rdf:resource="#_9d49298f-d5ea-4ded-8484-fabdba5d09b3" />
+      </rdf:Description>
+      <rdf:Description rdf:about="#_65d90d05-5884-4176-931d-6242021e07b0" me:className="Substation">
+        <rf:IdentifiedObject.OrganisationRoles rdf:resource="#_9d49298f-d5ea-4ded-8484-fabdba5d09b3" />
+      </rdf:Description>
+      <rdf:Description rdf:about="#_b92cd344-287b-42cb-9c76-81c7a1f65738" me:className="Substation">
+        <rf:IdentifiedObject.OrganisationRoles rdf:resource="#_9d49298f-d5ea-4ded-8484-fabdba5d09b3" />
+      </rdf:Description>
+      <rdf:Description rdf:about="#_67a0ff9e-c788-40fb-b1c0-c6cddaac5a34" me:className="Substation">
+        <rf:IdentifiedObject.OrganisationRoles rdf:resource="#_9d49298f-d5ea-4ded-8484-fabdba5d09b3" />
+        <rf:IdentifiedObject.OrganisationRoles rdf:resource="#_994edfb6-1259-4342-bf82-7bd7fcead384" />
+      </rdf:Description>
+      <rdf:Description rdf:about="#_413ac602-a746-4731-ba79-fc52f8159fbb" me:className="AssetOwner">
+        <me:OrganisationRole.Category rdf:resource="#_10000d7e-0000-0000-c000-0000006d746c" />
+        <me:IdentifiedObject.ParentObject rdf:resource="#_ec384553-0a51-459a-95eb-c24af693c87e" />
+      </rdf:Description>
+      <rdf:Description rdf:about="#_994edfb6-1259-4342-bf82-7bd7fcead384" me:className="AssetOwner">
+        <rf:OrganisationRole.Objects rdf:resource="#_67a0ff9e-c788-40fb-b1c0-c6cddaac5a34" />
+      </rdf:Description>
+      <rdf:Description rdf:about="#_f7bcd392-0095-44f1-b3ff-8a37313f4475" me:className="AssetOwner">
+        <me:OrganisationRole.Category rdf:resource="#_10000d7e-0000-0000-c000-0000006d746c" />
+        <me:IdentifiedObject.ParentObject rdf:resource="#_fa3ba034-6bbe-4cb3-ab53-26b43fe7a94b" />
+      </rdf:Description>
+      <rdf:Description rdf:about="#_ef703137-db59-4125-bfd2-160f36694a27" me:className="AssetOwner">
+        <me:OrganisationRole.Category rdf:resource="#_10000d7e-0000-0000-c000-0000006d746c" />
+        <me:IdentifiedObject.ParentObject rdf:resource="#_1d46ec8a-e022-4cb2-8e9e-a5b782220876" />
+      </rdf:Description>
+      <rdf:Description rdf:about="#_37049ee3-f69d-4afb-9e2d-7d07faf4bab9" me:className="AssetOwner">
+        <rf:OrganisationRole.Objects rdf:resource="#_07fa87f1-57e7-4b7f-947b-07ec459e718a" />
+        <rf:OrganisationRole.Objects rdf:resource="#_60cc5c51-1411-42bb-a18b-b25f50e5c7e2" />
+      </rdf:Description>
+      <rdf:Description rdf:about="#_9d49298f-d5ea-4ded-8484-fabdba5d09b3" me:className="AssetDataSource">
+        <me:OrganisationRole.Category rdf:resource="#_ea20afb6-36de-45d9-bc3a-158b1bdd7489" />
+        <rf:OrganisationRole.Objects rdf:resource="#_67a0ff9e-c788-40fb-b1c0-c6cddaac5a34" />
+        <rf:OrganisationRole.Objects rdf:resource="#_65d90d05-5884-4176-931d-6242021e07b0" />
+        <rf:OrganisationRole.Objects rdf:resource="#_b92cd344-287b-42cb-9c76-81c7a1f65738" />
+        <rf:OrganisationRole.Objects rdf:resource="#_a1f59c92-a57c-4ded-925e-041ea9fbb6a0" />
+        <me:IdentifiedObject.ParentObject rdf:resource="#_ec384553-0a51-459a-95eb-c24af693c87e" />
+      </rdf:Description>
+      <so:AssetDataSource rdf:about="#_19b68760-74df-4d9f-9a85-79fd76e5a0c9">
+        <cim:IdentifiedObject.name>Источник информации по Приказу 1340 Филиал АО «НАК «Азот» Новомосковская ГРЭС</cim:IdentifiedObject.name>
+        <cim:OrganisationRole.Organisation rdf:resource="#_5e0e4512-d529-42da-87ac-d16ad76bf4b3" />
+        <rf:OrganisationRole.Objects rdf:resource="#_9bd5d9c9-e066-4afe-9f4c-880652c63b54" />
+        <me:IdentifiedObject.ParentObject rdf:resource="#_c8fda30a-24e3-407e-b635-dd5e017d3e6d" />
+      </so:AssetDataSource>
+      <so:AssetDataSource rdf:about="#_32d3df0a-f362-4b7d-836f-4df6e7128123">
+        <cim:IdentifiedObject.name>Источник информации по Приказу 1340 Филиал АО «Квадра» - «Тамбовская генерация»</cim:IdentifiedObject.name>
+        <cim:OrganisationRole.Organisation rdf:resource="#_390e0745-4ec2-40b7-b6d2-0bd7dc73cbdc" />
+        <rf:OrganisationRole.Objects rdf:resource="#_96bcf9d8-22f3-46c6-80d3-974856edd367" />
+        <rf:OrganisationRole.Objects rdf:resource="#_954c48ca-2507-4d87-b5ef-c32da1382585" />
+        <me:IdentifiedObject.ParentObject rdf:resource="#_48ee6764-6bca-4bc7-a219-46765812cd8e" />
+      </so:AssetDataSource>
+      <rdf:Description rdf:about="#_ee3cc832-4320-4629-ade5-0a6362d6b8a4" me:className="AssetDataSource">
+        <rf:OrganisationRole.Objects rdf:resource="#_07fa87f1-57e7-4b7f-947b-07ec459e718a" />
+        <rf:OrganisationRole.Objects rdf:resource="#_60cc5c51-1411-42bb-a18b-b25f50e5c7e2" />
+      </rdf:Description>
+    </dm:forwardDifferences>
+    <dm:reverseDifferences>
+      <rdf:Description rdf:about="#_00000001-0000-0000-c000-0000006d746c" me:className="BaseObjectRoot">
+        <me:IdentifiedObject.ChildObjects rdf:resource="#_23f13771-3b05-48d1-a8cb-43dca6694f80" />
+      </rdf:Description>
+      <me:Folder rdf:about="#_147a3375-074e-4019-a4c0-64e35583c551">
+        <cim:IdentifiedObject.name>Роли</cim:IdentifiedObject.name>
+        <me:IdentifiedObject.ChildObjects rdf:resource="#_413ac602-a746-4731-ba79-fc52f8159fbb" />
+        <me:IdentifiedObject.ChildObjects rdf:resource="#_9d49298f-d5ea-4ded-8484-fabdba5d09b3" />
+        <me:IdentifiedObject.ParentObject rdf:resource="#_8b6d195c-225b-4c59-a284-6b2be86f380f" />
+        <me:Folder.CreatingNode rdf:resource="#_9fe21e3d-b80d-470f-acfb-93447357da3d" />
+      </me:Folder>
+      <rdf:Description rdf:about="#_236115ad-3d38-4d94-8160-3a950d60165d" me:className="Folder">
+        <me:IdentifiedObject.ChildObjects rdf:resource="#_f7bcd392-0095-44f1-b3ff-8a37313f4475" />
+      </rdf:Description>
+      <rdf:Description rdf:about="#_c21907b5-d5c9-472f-b712-756bfad48c40" me:className="Folder">
+        <me:IdentifiedObject.ChildObjects rdf:resource="#_ef703137-db59-4125-bfd2-160f36694a27" />
+      </rdf:Description>
+      <rdf:Description rdf:about="#_9fe21e3d-b80d-470f-acfb-93447357da3d" me:className="FolderNode">
+        <me:FolderNode.Folders rdf:resource="#_147a3375-074e-4019-a4c0-64e35583c551" />
+      </rdf:Description>
+      <rdf:Description rdf:about="#_23f13771-3b05-48d1-a8cb-43dca6694f80" me:className="Organisation">
+        <me:IdentifiedObject.ParentObject rdf:resource="#_00000001-0000-0000-c000-0000006d746c" />
+      </rdf:Description>
+      <rdf:Description rdf:about="#_8b6d195c-225b-4c59-a284-6b2be86f380f" me:className="Organisation">
+        <me:IdentifiedObject.ChildObjects rdf:resource="#_147a3375-074e-4019-a4c0-64e35583c551" />
+      </rdf:Description>
+      <rdf:Description rdf:about="#_9bd5d9c9-e066-4afe-9f4c-880652c63b54" me:className="Plant">
+        <rf:IdentifiedObject.OrganisationRoles rdf:resource="#_6bf585a1-f32c-4e59-acb9-2cd915bfa293" />
+      </rdf:Description>
+      <rdf:Description rdf:about="#_96bcf9d8-22f3-46c6-80d3-974856edd367" me:className="Plant">
+        <rf:IdentifiedObject.OrganisationRoles rdf:resource="#_bf430fac-993f-4a02-879e-cc96061dc0ab" />
+      </rdf:Description>
+      <rdf:Description rdf:about="#_954c48ca-2507-4d87-b5ef-c32da1382585" me:className="Plant">
+        <rf:IdentifiedObject.OrganisationRoles rdf:resource="#_bf430fac-993f-4a02-879e-cc96061dc0ab" />
+      </rdf:Description>
+      <rdf:Description rdf:about="#_9843944c-cc73-4d4c-be58-5177978b5bb4" me:className="VoltageLevel">
+        <rf:IdentifiedObject.OrganisationRoles rdf:resource="#_ee3cc832-4320-4629-ade5-0a6362d6b8a4" />
+        <rf:IdentifiedObject.OrganisationRoles rdf:resource="#_37049ee3-f69d-4afb-9e2d-7d07faf4bab9" />
+      </rdf:Description>
+      <rdf:Description rdf:about="#_a1f59c92-a57c-4ded-925e-041ea9fbb6a0" me:className="Substation">
+        <rf:IdentifiedObject.OrganisationRoles rdf:resource="#_c230ac30-9b50-492d-afb1-9200c8c276ce" />
+      </rdf:Description>
+      <rdf:Description rdf:about="#_65d90d05-5884-4176-931d-6242021e07b0" me:className="Substation">
+        <rf:IdentifiedObject.OrganisationRoles rdf:resource="#_c230ac30-9b50-492d-afb1-9200c8c276ce" />
+      </rdf:Description>
+      <rdf:Description rdf:about="#_b92cd344-287b-42cb-9c76-81c7a1f65738" me:className="Substation">
+        <rf:IdentifiedObject.OrganisationRoles rdf:resource="#_c230ac30-9b50-492d-afb1-9200c8c276ce" />
+      </rdf:Description>
+      <rdf:Description rdf:about="#_67a0ff9e-c788-40fb-b1c0-c6cddaac5a34" me:className="Substation">
+        <rf:IdentifiedObject.OrganisationRoles rdf:resource="#_2b82a7cc-d744-4def-a675-a98d3453a0f9" />
+        <rf:IdentifiedObject.OrganisationRoles rdf:resource="#_38e0cc3f-1f9d-4131-a18b-d4a76251c74f" />
+      </rdf:Description>
+      <rdf:Description rdf:about="#_2b82a7cc-d744-4def-a675-a98d3453a0f9" me:className="AssetOwner">
+        <rf:OrganisationRole.Objects rdf:resource="#_67a0ff9e-c788-40fb-b1c0-c6cddaac5a34" />
+      </rdf:Description>
+      <rdf:Description rdf:about="#_413ac602-a746-4731-ba79-fc52f8159fbb" me:className="AssetOwner">
+        <me:IdentifiedObject.ParentObject rdf:resource="#_147a3375-074e-4019-a4c0-64e35583c551" />
+      </rdf:Description>
+      <rdf:Description rdf:about="#_f7bcd392-0095-44f1-b3ff-8a37313f4475" me:className="AssetOwner">
+        <me:IdentifiedObject.ParentObject rdf:resource="#_236115ad-3d38-4d94-8160-3a950d60165d" />
+      </rdf:Description>
+      <rdf:Description rdf:about="#_ef703137-db59-4125-bfd2-160f36694a27" me:className="AssetOwner">
+        <me:IdentifiedObject.ParentObject rdf:resource="#_c21907b5-d5c9-472f-b712-756bfad48c40" />
+      </rdf:Description>
+      <rdf:Description rdf:about="#_37049ee3-f69d-4afb-9e2d-7d07faf4bab9" me:className="AssetOwner">
+        <rf:OrganisationRole.Objects rdf:resource="#_9843944c-cc73-4d4c-be58-5177978b5bb4" />
+      </rdf:Description>
+      <rdf:Description rdf:about="#_c230ac30-9b50-492d-afb1-9200c8c276ce" me:className="AssetDataSource">
+        <rf:OrganisationRole.Objects rdf:resource="#_65d90d05-5884-4176-931d-6242021e07b0" />
+        <rf:OrganisationRole.Objects rdf:resource="#_b92cd344-287b-42cb-9c76-81c7a1f65738" />
+        <rf:OrganisationRole.Objects rdf:resource="#_a1f59c92-a57c-4ded-925e-041ea9fbb6a0" />
+      </rdf:Description>
+      <rdf:Description rdf:about="#_9d49298f-d5ea-4ded-8484-fabdba5d09b3" me:className="AssetDataSource">
+        <me:IdentifiedObject.ParentObject rdf:resource="#_147a3375-074e-4019-a4c0-64e35583c551" />
+      </rdf:Description>
+      <rdf:Description rdf:about="#_38e0cc3f-1f9d-4131-a18b-d4a76251c74f" me:className="AssetDataSource">
+        <rf:OrganisationRole.Objects rdf:resource="#_67a0ff9e-c788-40fb-b1c0-c6cddaac5a34" />
+      </rdf:Description>
+      <rdf:Description rdf:about="#_6bf585a1-f32c-4e59-acb9-2cd915bfa293" me:className="AssetDataSource">
+        <rf:OrganisationRole.Objects rdf:resource="#_9bd5d9c9-e066-4afe-9f4c-880652c63b54" />
+      </rdf:Description>
+      <rdf:Description rdf:about="#_ee3cc832-4320-4629-ade5-0a6362d6b8a4" me:className="AssetDataSource">
+        <rf:OrganisationRole.Objects rdf:resource="#_9843944c-cc73-4d4c-be58-5177978b5bb4" />
+      </rdf:Description>
+      <rdf:Description rdf:about="#_bf430fac-993f-4a02-879e-cc96061dc0ab" me:className="AssetDataSource">
+        <rf:OrganisationRole.Objects rdf:resource="#_954c48ca-2507-4d87-b5ef-c32da1382585" />
+        <rf:OrganisationRole.Objects rdf:resource="#_96bcf9d8-22f3-46c6-80d3-974856edd367" />
+      </rdf:Description>
+    </dm:reverseDifferences>
+  </dm:DifferenceModel>
+</rdf:RDF>
