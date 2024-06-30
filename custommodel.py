@@ -4,7 +4,10 @@ from base import BaseClass
 default_patterns = [
     ('<me:', '>'),
     ('<rh:', '>'),
-    ('<cim17:', '>')
+    ('<cim17:', '>'),
+    ('</me:', '>'),
+    ('</rh:', '>'),
+    ('</cim17:', '>'),
 ]
 
 
@@ -14,8 +17,8 @@ def ready_custom_model():
         output_file = filedialog.asksaveasfilename(title="Сохранить как", defaultextension=".xml",
                                                    filetypes=[("Text files", "*.xml")])
         if output_file:
-            use_defaults = messagebox.askyesno("Использовать значения по умолчанию?",
-                                               "Удалить теги me: rh: cim17:?")
+            use_defaults = messagebox.askyesno("Удаление строк",
+                                               "Удалить теги, заданные по умолчанию? см. консоль.")
             if use_defaults:
                 patterns = default_patterns
             else:
@@ -31,8 +34,8 @@ def ready_custom_model():
                         break
                     patterns.append((start_char, end_char))
 
-            delete_me_class_name = messagebox.askyesno("Удаление me:class у description",
-                                                       "Удалить me:class у description?")
+            delete_me_class_name = messagebox.askyesno("Удаление me:className у description",
+                                                       "Удалить me:className у description?")
             flag = True
             if delete_me_class_name:
                 flag = True

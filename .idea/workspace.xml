@@ -4,15 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a0f21b51-fa8c-48da-a578-8666c03e846e" name="Changes" comment="6. Commit v 1.2 app">
-      <change afterPath="$PROJECT_DIR$/diffmodelGOST.py" afterDir="false" />
+    <list default="true" id="a0f21b51-fa8c-48da-a578-8666c03e846e" name="Changes" comment="7. Commit v 1.4 app with alfa diffGOST">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/about.py" beforeDir="false" afterPath="$PROJECT_DIR$/about.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/base.py" beforeDir="false" afterPath="$PROJECT_DIR$/base.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/custommodel.py" beforeDir="false" afterPath="$PROJECT_DIR$/custommodel.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/diffmodel.py" beforeDir="false" afterPath="$PROJECT_DIR$/diffmodel.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fullmodelGOST.py" beforeDir="false" afterPath="$PROJECT_DIR$/fullmodelGOST.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/diffmodelGOST.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fullmodel.py" beforeDir="false" afterPath="$PROJECT_DIR$/fullmodel.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fullmodelGOST.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/gui.py" beforeDir="false" afterPath="$PROJECT_DIR$/gui.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Наборы изменений/output.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Наборы изменений/output.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Наборы изменений/Пример готового файла.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Наборы изменений/Проставление endnumber на портал.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Наборы изменений/Проставление endnumber.xml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,24 +51,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python.diffmodel.executor": "Run",
-    "Python.gui.executor": "Run",
-    "Python.interface.executor": "Run",
-    "Python.main.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "v1.4-with-diffGOST",
-    "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "E:/Projects/pythonProjects/Tkinter/xmlReadyLoader",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.diffmodel.executor&quot;: &quot;Run&quot;,
+    &quot;Python.gui.executor&quot;: &quot;Run&quot;,
+    &quot;Python.interface.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;v1.4-with-diffGOST&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/Projects/pythonProjects/Tkinter/xmlReadyLoader&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   },
-  "keyToStringList": {
-    "ChangesTree.GroupingKeys": [
+  &quot;keyToStringList&quot;: {
+    &quot;ChangesTree.GroupingKeys&quot;: [
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\Projects\pythonProjects\Tkinter\xmlReadyLoader" />
@@ -229,7 +234,15 @@
       <option name="project" value="LOCAL" />
       <updated>1719257382873</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="7. Commit v 1.4 app with alfa diffGOST">
+      <option name="closed" value="true" />
+      <created>1719349472267</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1719349472267</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -238,6 +251,7 @@
     <MESSAGE value="3. Commit" />
     <MESSAGE value="4. Commit v 1.0 app" />
     <MESSAGE value="5. Commit v 1.1 app" />
-    <option name="LAST_COMMIT_MESSAGE" value="5. Commit v 1.1 app" />
+    <MESSAGE value="7. Commit v 1.4 app with alfa diffGOST" />
+    <option name="LAST_COMMIT_MESSAGE" value="7. Commit v 1.4 app with alfa diffGOST" />
   </component>
 </project>

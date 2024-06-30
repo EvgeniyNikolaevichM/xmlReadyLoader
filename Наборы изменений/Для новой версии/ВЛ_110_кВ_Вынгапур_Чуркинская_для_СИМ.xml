@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?floatExporter 1?>
+<rdf:RDF xmlns:cim="http://iec.ch/TC57/2014/CIM-schema-cim16#" xmlns:cim17="http://iec.ch/TC57/2014/CIM-schema-cim17#" xmlns:me="http://monitel.com/2014/schema-cim16#" xmlns:rf="http://gost.ru/2019/schema-cim01#" xmlns:rh="http://rushydro.ru/2015/schema-cim16#" xmlns:so="http://so-ups.ru/2015/schema-cim16#" xmlns:dm="http://iec.ch/2002/schema/CIM_difference_model#" xmlns:md="http://iec.ch/TC57/61970-552/ModelDescription/1#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <dm:DifferenceModel rdf:about="#_42ea8c4e-c5a7-4fbe-ab47-d2d0758e40b1" comment="Набор изменений версии модели [для ВЛ]:[4968] относительной версии модели [КПМ_!Обновление РМ для актуал оборудования_new/Актуал оборудования рабочка&#xA;]:[4963]">
+    <md:Model.created>2024-06-03T04:34:43.359756Z</md:Model.created>
+    <md:Model.description>Набор изменений версии модели [для ВЛ]:[4968] относительной версии модели [КПМ_!Обновление РМ для актуал оборудования_new/Актуал оборудования рабочка
+]:[4963]</md:Model.description>
+    <md:Model.version>ver:11.7.1.241;ext:1;</md:Model.version>
+    <me:Model.name>CIM16</me:Model.name>
+    <dm:forwardDifferences>
+      <rdf:Description rdf:about="#_89ee5fe2-73c0-4e4b-92da-3e44c9e3b01f" me:className="Terminal">
+        <cim:Terminal.ConnectivityNode rdf:resource="#_5dc1a584-3a0e-4d47-a38d-aa52bd969f5f" />
+      </rdf:Description>
+      <rdf:Description rdf:about="#_c06aff3d-41ff-4461-93f0-c24c6ed6beb8" me:className="Terminal">
+        <cim:Terminal.ConnectivityNode rdf:resource="#_73b0cb1c-a84b-415f-bd59-55b05e2f1a99" />
+      </rdf:Description>
+      <rdf:Description rdf:about="#_b29b3b5a-0f99-4c6f-a5a7-21d2d312a1d3" me:className="Terminal">
+        <cim:Terminal.ConnectivityNode rdf:resource="#_7323fe49-75b7-4c2f-abdb-9acd571dd2f7" />
+      </rdf:Description>
+      <rdf:Description rdf:about="#_3070a2f6-646b-49c0-8fa2-8eca404c1172" me:className="Terminal">
+        <cim:Terminal.ConnectivityNode rdf:resource="#_50246f7f-11df-4ded-8a31-d0a1b2adc383" />
+      </rdf:Description>
+      <rdf:Description rdf:about="#_5dc1a584-3a0e-4d47-a38d-aa52bd969f5f" me:className="ConnectivityNode">
+        <cim:ConnectivityNode.Terminals rdf:resource="#_89ee5fe2-73c0-4e4b-92da-3e44c9e3b01f" />
+      </rdf:Description>
+      <rdf:Description rdf:about="#_73b0cb1c-a84b-415f-bd59-55b05e2f1a99" me:className="ConnectivityNode">
+        <cim:ConnectivityNode.Terminals rdf:resource="#_c06aff3d-41ff-4461-93f0-c24c6ed6beb8" />
+      </rdf:Description>
+      <rdf:Description rdf:about="#_7323fe49-75b7-4c2f-abdb-9acd571dd2f7" me:className="ConnectivityNode">
+        <cim:ConnectivityNode.Terminals rdf:resource="#_b29b3b5a-0f99-4c6f-a5a7-21d2d312a1d3" />
+      </rdf:Description>
+      <rdf:Description rdf:about="#_50246f7f-11df-4ded-8a31-d0a1b2adc383" me:className="ConnectivityNode">
+        <cim:ConnectivityNode.Terminals rdf:resource="#_3070a2f6-646b-49c0-8fa2-8eca404c1172" />
+      </rdf:Description>
+      <rdf:Description rdf:about="#_d9ed72b2-f05b-496c-b3de-318f5ea3acba" me:className="ACLineSegment">
+        <cim:Conductor.length>1226</cim:Conductor.length>
+      </rdf:Description>
+      <rdf:Description rdf:about="#_4ef4c1ee-a5d2-4942-b1cc-cce855fd09e0" me:className="ACLineSegment">
+        <cim:Conductor.length>25834</cim:Conductor.length>
+      </rdf:Description>
+      <rdf:Description rdf:about="#_548a7cc4-b1e4-48c1-8500-58bb4aecc7f7" me:className="ACLineSegment">
+        <cim:Conductor.length>10371</cim:Conductor.length>
+      </rdf:Description>
+      <rdf:Description rdf:about="#_5b8a44f9-b911-4c27-9484-a63cb1c42e70" me:className="ACLineSegment">
+        <cim:Conductor.length>42225</cim:Conductor.length>
+      </rdf:Description>
+      <rdf:Description rdf:about="#_5929f838-b60b-434f-ad48-08afa38763d9" me:className="ACLineSegment">
+        <cim:Conductor.length>7664</cim:Conductor.length>
+      </rdf:Description>
+      <rdf:Description rdf:about="#_6450a58b-1438-417b-bd1c-0418d1762b74" me:className="ACLineSegment">
+        <cim:Conductor.length>25834</cim:Conductor.length>
+      </rdf:Description>
+      <rdf:Description rdf:about="#_3260f41e-95c7-4500-8af0-f98c23e889ae" me:className="ACLineSegment">
+        <cim:Conductor.length>7664</cim:Conductor.length>
+      </rdf:Description>
+      <rdf:Description rdf:about="#_d26d3e88-c2f3-432a-a35a-e0f22f2c15af" me:className="ACLineSegment">
+        <cim:Conductor.length>10371</cim:Conductor.length>
+      </rdf:Description>
+      <rdf:Description rdf:about="#_32fc0ce2-2d04-4ee2-877c-81a6a6ac4d8e" me:className="ACLineSegment">
+        <cim:Conductor.length>42225</cim:Conductor.length>
+      </rdf:Description>
+      <rdf:Description rdf:about="#_49c53f65-e4e1-4bf8-a38f-8fc0897effcb" me:className="ACLineSegment">
+        <cim:Conductor.length>1226</cim:Conductor.length>
+      </rdf:Description>
+    </dm:forwardDifferences>
+    <dm:reverseDifferences>
+      <rdf:Description rdf:about="#_89ee5fe2-73c0-4e4b-92da-3e44c9e3b01f" me:className="Terminal">
+        <cim:Terminal.ConnectivityNode rdf:resource="#_73b0cb1c-a84b-415f-bd59-55b05e2f1a99" />
+      </rdf:Description>
+      <rdf:Description rdf:about="#_c06aff3d-41ff-4461-93f0-c24c6ed6beb8" me:className="Terminal">
+        <cim:Terminal.ConnectivityNode rdf:resource="#_5dc1a584-3a0e-4d47-a38d-aa52bd969f5f" />
+      </rdf:Description>
+      <rdf:Description rdf:about="#_b29b3b5a-0f99-4c6f-a5a7-21d2d312a1d3" me:className="Terminal">
+        <cim:Terminal.ConnectivityNode rdf:resource="#_50246f7f-11df-4ded-8a31-d0a1b2adc383" />
+      </rdf:Description>
+      <rdf:Description rdf:about="#_3070a2f6-646b-49c0-8fa2-8eca404c1172" me:className="Terminal">
+        <cim:Terminal.ConnectivityNode rdf:resource="#_7323fe49-75b7-4c2f-abdb-9acd571dd2f7" />
+      </rdf:Description>
+      <rdf:Description rdf:about="#_5dc1a584-3a0e-4d47-a38d-aa52bd969f5f" me:className="ConnectivityNode">
+        <cim:ConnectivityNode.Terminals rdf:resource="#_c06aff3d-41ff-4461-93f0-c24c6ed6beb8" />
+      </rdf:Description>
+      <rdf:Description rdf:about="#_73b0cb1c-a84b-415f-bd59-55b05e2f1a99" me:className="ConnectivityNode">
+        <cim:ConnectivityNode.Terminals rdf:resource="#_89ee5fe2-73c0-4e4b-92da-3e44c9e3b01f" />
+      </rdf:Description>
+      <rdf:Description rdf:about="#_7323fe49-75b7-4c2f-abdb-9acd571dd2f7" me:className="ConnectivityNode">
+        <cim:ConnectivityNode.Terminals rdf:resource="#_3070a2f6-646b-49c0-8fa2-8eca404c1172" />
+      </rdf:Description>
+      <rdf:Description rdf:about="#_50246f7f-11df-4ded-8a31-d0a1b2adc383" me:className="ConnectivityNode">
+        <cim:ConnectivityNode.Terminals rdf:resource="#_b29b3b5a-0f99-4c6f-a5a7-21d2d312a1d3" />
+      </rdf:Description>
+      <rdf:Description rdf:about="#_d9ed72b2-f05b-496c-b3de-318f5ea3acba" me:className="ACLineSegment">
+        <cim:Conductor.length>3600</cim:Conductor.length>
+      </rdf:Description>
+      <rdf:Description rdf:about="#_4ef4c1ee-a5d2-4942-b1cc-cce855fd09e0" me:className="ACLineSegment">
+        <cim:Conductor.length>17450</cim:Conductor.length>
+      </rdf:Description>
+      <rdf:Description rdf:about="#_548a7cc4-b1e4-48c1-8500-58bb4aecc7f7" me:className="ACLineSegment">
+        <cim:Conductor.length>11720</cim:Conductor.length>
+      </rdf:Description>
+      <rdf:Description rdf:about="#_5b8a44f9-b911-4c27-9484-a63cb1c42e70" me:className="ACLineSegment">
+        <cim:Conductor.length>52020</cim:Conductor.length>
+      </rdf:Description>
+      <rdf:Description rdf:about="#_5929f838-b60b-434f-ad48-08afa38763d9" me:className="ACLineSegment">
+        <cim:Conductor.length>20</cim:Conductor.length>
+      </rdf:Description>
+      <rdf:Description rdf:about="#_6450a58b-1438-417b-bd1c-0418d1762b74" me:className="ACLineSegment">
+        <cim:Conductor.length>17450</cim:Conductor.length>
+      </rdf:Description>
+      <rdf:Description rdf:about="#_3260f41e-95c7-4500-8af0-f98c23e889ae" me:className="ACLineSegment">
+        <cim:Conductor.length>20</cim:Conductor.length>
+      </rdf:Description>
+      <rdf:Description rdf:about="#_d26d3e88-c2f3-432a-a35a-e0f22f2c15af" me:className="ACLineSegment">
+        <cim:Conductor.length>11720</cim:Conductor.length>
+      </rdf:Description>
+      <rdf:Description rdf:about="#_32fc0ce2-2d04-4ee2-877c-81a6a6ac4d8e" me:className="ACLineSegment">
+        <cim:Conductor.length>52020</cim:Conductor.length>
+      </rdf:Description>
+      <rdf:Description rdf:about="#_49c53f65-e4e1-4bf8-a38f-8fc0897effcb" me:className="ACLineSegment">
+        <cim:Conductor.length>3600</cim:Conductor.length>
+      </rdf:Description>
+    </dm:reverseDifferences>
+  </dm:DifferenceModel>
+</rdf:RDF>
